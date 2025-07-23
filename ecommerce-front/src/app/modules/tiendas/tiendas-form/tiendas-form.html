@@ -1,0 +1,66 @@
+<div class="tienda-form-container">
+  <h2>{{ isEdit ? "Editar" : "Nueva" }} Tienda</h2>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-field">
+      <label for="sucursal" class="form-label">Sucursal</label>
+      <input
+        type="text"
+        id="sucursal"
+        class="form-input"
+        formControlName="sucursal"
+        placeholder="Nombre de la sucursal"
+        [class.invalid]="form.get('sucursal')?.invalid && form.get('sucursal')?.touched"
+      />
+      @if (form.get('sucursal')?.invalid && form.get('sucursal')?.touched) {
+        <div class="error-message">
+          @if (form.get('sucursal')?.errors?.['required']) {
+            El nombre de la sucursal es requerido
+          }
+          @if (form.get('sucursal')?.errors?.['maxlength']) {
+            Máximo 100 caracteres
+          }
+        </div>
+      }
+    </div>
+
+    <div class="form-field">
+      <label for="direccion" class="form-label">Dirección</label>
+      <input
+        type="text"
+        id="direccion"
+        class="form-input"
+        formControlName="direccion"
+        placeholder="Dirección completa"
+        [class.invalid]="form.get('direccion')?.invalid && form.get('direccion')?.touched"
+      />
+      @if (form.get('direccion')?.invalid && form.get('direccion')?.touched) {
+        <div class="error-message">
+          @if (form.get('direccion')?.errors?.['required']) {
+            La dirección es requerida
+          }
+          @if (form.get('direccion')?.errors?.['maxlength']) {
+            Máximo 200 caracteres
+          }
+        </div>
+      }
+    </div>
+
+    <div class="form-actions">
+      <button
+        type="submit"
+        class="btn submit-btn"
+        [disabled]="form.invalid || loading"
+      >
+        @if (loading) {
+          <span class="spinner"></span>
+        }
+        {{ isEdit ? "Actualizar Tienda" : "Guardar Tienda" }}
+      </button>
+
+      <button type="button" class="btn cancel-btn" (click)="onCancel()">
+        Cancelar
+      </button>
+    </div>
+  </form>
+</div>

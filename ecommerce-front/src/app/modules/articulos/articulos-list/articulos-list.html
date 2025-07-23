@@ -1,0 +1,60 @@
+<app-navbar></app-navbar>
+<div class="articulos-container">
+  <h2>Listado de Artículos</h2>
+
+  @if (loading()) {
+  <div class="loading-state">
+    <div class="spinner"></div>
+    <p>Cargando Artículos...</p>
+  </div>
+  } @else if (errorMessage()) {
+  <div class="error-alert">
+    {{ errorMessage() }}
+    <button (click)="loadArticulos()" class="retry-btn">Reintentar</button>
+  </div>
+  } @else {
+  <div class="header-actions">
+    <button (click)="navigateToNewArticle()" class="primary-btn">
+      Nuevo Artículo
+    </button>
+  </div>
+
+  @if (articulos().length > 0) {
+  <div class="articulos-grid">
+    @for (articulo of articulos(); track articulo.id) {
+    <div class="articulo-card">
+      <a [href]="articulo.imagen" target="_blank" class="image-container">
+        <img
+          [src]="articulo.imagen"
+          [alt]="articulo.descripcion"
+          onerror="this.src='https://via.placeholder.com/150'"
+        />
+      </a>
+      <div class="articulo-info">
+        <h3>{{ articulo.descripcion }}</h3>
+        <div class="details">
+          <span class="codigo">{{ articulo.codigo }}</span>
+          <span class="precio">{{ articulo.precio | currency }}</span>
+          <span class="stock" [class.low-stock]="articulo.stock < 10">
+            Stock: {{ articulo.stock }}
+          </span>
+        </div>
+        <div class="actions">
+          <button (click)="addToCart(articulo)" class="add-to-cart-btn">
+            <span class="plus-icon">+</span> Añadir
+          </button>
+          <button (click)="editArticulo(articulo.id!)" class="edit-btn">
+            Editar
+          </button>
+          <button (click)="deleteArticulo(articulo.id!)" class="delete-btn">
+            Eliminar
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  } @else {
+  <div class="empty-state">No se encontraron Artículos</div>
+  } }
+</div>

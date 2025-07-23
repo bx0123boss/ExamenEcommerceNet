@@ -1,0 +1,11 @@
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\bin\Debug\net9.0\Ecommerce.Entities.deps.json
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\bin\Debug\net9.0\Ecommerce.Entities.dll
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\bin\Debug\net9.0\Ecommerce.Entities.pdb
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\Ecommerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\Ecommerce.Entities.AssemblyInfoInputs.cache
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\Ecommerce.Entities.AssemblyInfo.cs
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\Ecommerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\Ecommerce.Entities.dll
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\refint\Ecommerce.Entities.dll
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\Ecommerce.Entities.pdb
+C:\Users\Brandon\Desktop\MLG\ExamenNet\Ecommerce.Entities\obj\Debug\net9.0\ref\Ecommerce.Entities.dll

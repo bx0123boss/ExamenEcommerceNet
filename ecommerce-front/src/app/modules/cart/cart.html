@@ -1,0 +1,53 @@
+<app-navbar></app-navbar>
+<div class="carrito-container">
+  <h2>Mi Carrito</h2>
+  
+  <div class="cliente-selector">
+    <label for="clienteSelect">Seleccione Cliente:</label>
+    <select id="clienteSelect" (change)="onClienteChange($event)">
+      <option value="">-- Seleccione --</option>
+      @for (cliente of clientes(); track cliente.id) {
+      <option [value]="cliente.id">{{ cliente.nombre }}</option>
+      }
+    </select>
+  </div>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Cantidad</th>
+        <th>Artículo</th>
+        <th>Precio</th>
+        <th>Total</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of items(); track item.articulo.id) {
+      <tr>
+        <td>{{ item.cantidad }}</td>
+        <td>{{ item.articulo.descripcion }}</td>
+        <td>{{ item.articulo.precio | currency }}</td>
+        <td>{{ item.articulo.precio * item.cantidad | currency }}</td>
+        <td>
+          <button class="delete-btn" (click)="eliminarArticulo(item.articulo.id!)">Eliminar</button>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+
+  @if (items().length === 0) {
+  <div class="empty-cart-message">
+    <p>No hay artículos en el carrito.</p>
+  </div>
+  }
+
+  <div class="total-container">
+    <p>Total: {{ total | currency }}</p>
+  </div>
+
+  <button class="finalizar-btn" (click)="confirmarCompra()" [disabled]="items().length === 0">
+    Finalizar Compra
+  </button>
+</div>

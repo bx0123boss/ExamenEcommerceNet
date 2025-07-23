@@ -1,0 +1,55 @@
+<app-navbar></app-navbar>
+<div class="tiendas-container">
+  <h2>Listado de Tiendas</h2>
+
+  @if (loading()) {
+  <div class="loading-state">
+    <div class="spinner"></div>
+    <p>Cargando Tiendas...</p>
+  </div>
+  } @else if (errorMessage()) {
+  <div class="error-alert">
+    {{ errorMessage() }}
+    <button (click)="loadTiendas()" class="retry-btn">Reintentar</button>
+  </div>
+  } @else {
+  <div class="header-actions">
+    <button (click)="navigateToNewStore()" class="primary-btn">
+      Nueva Tienda
+    </button>
+  </div>
+
+  @if (tiendas().length > 0) {
+  <div class="tiendas-table-container">
+    <table class="tiendas-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Sucursal</th>
+          <th>Dirección</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (tienda of tiendas(); track tienda.id) {
+        <tr>
+          <td>{{ tienda.id }}</td>
+          <td>{{ tienda.sucursal }}</td>
+          <td>{{ tienda.direccion }}</td>
+          <td class="actions-cell">
+            <button (click)="editTienda(tienda.id!)" class="edit-btn">
+              Editar
+            </button>
+            <button (click)="deleteTienda(tienda.id!)" class="delete-btn">
+              Eliminar
+            </button>
+          </td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+  } @else {
+  <div class="empty-state">No se encontraron Tiendas</div>
+  } }
+</div>

@@ -1,0 +1,82 @@
+<div class="container">
+  <h2>{{ isEdit ? "Editar Cliente" : "Nuevo Cliente" }}</h2>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input
+        type="text"
+        class="form-control"
+        id="nombre"
+        formControlName="nombre"
+        placeholder="Ingrese el nombre"
+        [class.is-invalid]="
+          form.get('nombre')?.invalid && form.get('nombre')?.touched
+        "
+      />
+      @if (form.get('nombre')?.invalid && form.get('nombre')?.touched) {
+      <div class="invalid-feedback">
+        @if (form.get('nombre')?.errors?.['required']) { El nombre es requerido
+        } @else { Nombre inválido }
+      </div>
+      }
+    </div>
+
+    <div class="mb-3">
+      <label for="apellidos" class="form-label">Apellidos</label>
+      <input
+        type="text"
+        class="form-control"
+        id="apellidos"
+        formControlName="apellidos"
+        placeholder="Ingrese los apellidos"
+        [class.is-invalid]="
+          form.get('apellidos')?.invalid && form.get('apellidos')?.touched
+        "
+      />
+      @if (form.get('apellidos')?.invalid && form.get('apellidos')?.touched) {
+      <div class="invalid-feedback">
+        @if (form.get('apellidos')?.errors?.['required']) { Los apellidos son
+        requeridos } @else { Apellidos inválidos }
+      </div>
+      }
+    </div>
+
+    <div class="mb-3">
+      <label for="direccion" class="form-label">Dirección</label>
+      <input
+        type="text"
+        class="form-control"
+        id="direccion"
+        formControlName="direccion"
+        placeholder="Ingrese la dirección"
+        [class.is-invalid]="
+          form.get('direccion')?.invalid && form.get('direccion')?.touched
+        "
+      />
+      @if (form.get('direccion')?.invalid && form.get('direccion')?.touched) {
+      <div class="invalid-feedback">
+        @if (form.get('direccion')?.errors?.['required']) { La dirección es
+        requerida } @else { Dirección inválida }
+      </div>
+      }
+    </div>
+
+    <div class="button-group">
+      <button
+        type="submit"
+        class="btn btn-primary"
+        [disabled]="form.invalid || loading"
+      >
+        @if (loading) {
+        <span class="spinner-border spinner-border-sm"></span>
+        }
+        {{ isEdit ? "Actualizar" : "Guardar" }}
+      </button>
+
+      <button type="button" class="btn btn-secondary" (click)="onCancel()">
+        Cancelar
+      </button>
+    </div>
+  </form>
+</div>

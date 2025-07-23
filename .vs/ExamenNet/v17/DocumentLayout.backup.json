@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9A716B-2A1E-4310-AD74-DF7EAB3701BA}|Ecommerce.Data\\Ecommerce.Data.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.data\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9A716B-2A1E-4310-AD74-DF7EAB3701BA}|Ecommerce.Data\\Ecommerce.Data.csproj|solutionrelative:ecommerce.data\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA87809E-C468-4605-8288-1301149B7634}|Ecommerce.Entities\\Ecommerce.Entities.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.entities\\clientearticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA87809E-C468-4605-8288-1301149B7634}|Ecommerce.Entities\\Ecommerce.Entities.csproj|solutionrelative:ecommerce.entities\\clientearticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.business\\services\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|solutionrelative:ecommerce.business\\services\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.business\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|solutionrelative:ecommerce.business\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.business\\services\\iarticuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|solutionrelative:ecommerce.business\\services\\iarticuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.business\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|solutionrelative:ecommerce.business\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.business\\services\\itiendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|solutionrelative:ecommerce.business\\services\\itiendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.business\\services\\tiendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECFD7A80-C560-401F-B5C3-3F129A8066DF}|Ecommerce.Business\\Ecommerce.Business.csproj|solutionrelative:ecommerce.business\\services\\tiendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA87809E-C468-4605-8288-1301149B7634}|Ecommerce.Entities\\Ecommerce.Entities.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.entities\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA87809E-C468-4605-8288-1301149B7634}|Ecommerce.Entities\\Ecommerce.Entities.csproj|solutionrelative:ecommerce.entities\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E869EE2-D47F-4927-9CB1-94C412FDCBD8}|Ecommerce.API\\Ecommerce.API.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.api\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E869EE2-D47F-4927-9CB1-94C412FDCBD8}|Ecommerce.API\\Ecommerce.API.csproj|solutionrelative:ecommerce.api\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E869EE2-D47F-4927-9CB1-94C412FDCBD8}|Ecommerce.API\\Ecommerce.API.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E869EE2-D47F-4927-9CB1-94C412FDCBD8}|Ecommerce.API\\Ecommerce.API.csproj|solutionrelative:ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA87809E-C468-4605-8288-1301149B7634}|Ecommerce.Entities\\Ecommerce.Entities.csproj|c:\\users\\brandon\\desktop\\mlg\\examennet\\ecommerce.entities\\articulotienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA87809E-C468-4605-8288-1301149B7634}|Ecommerce.Entities\\Ecommerce.Entities.csproj|solutionrelative:ecommerce.entities\\articulotienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Entities\\ClienteArticulo.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Entities\\ClienteArticulo.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Entities\\ClienteArticulo.cs",
+              "RelativeToolTip": "Ecommerce.Entities\\ClienteArticulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:12:08.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Business\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\ClienteService.cs",
+              "RelativeToolTip": "Ecommerce.Business\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:05:30.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\IClienteService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Business\\Services\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\IClienteService.cs",
+              "RelativeToolTip": "Ecommerce.Business\\Services\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:05:29.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITiendaService.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\ITiendaService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Business\\Services\\ITiendaService.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\ITiendaService.cs",
+              "RelativeToolTip": "Ecommerce.Business\\Services\\ITiendaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:05:28.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TiendaService.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\TiendaService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Business\\Services\\TiendaService.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\TiendaService.cs",
+              "RelativeToolTip": "Ecommerce.Business\\Services\\TiendaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:05:26.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EcommerceContext.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Data\\EcommerceContext.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Data\\EcommerceContext.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Data\\EcommerceContext.cs",
+              "RelativeToolTip": "Ecommerce.Data\\EcommerceContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:05:23.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.API\\Program.cs",
+              "RelativeDocumentMoniker": "Ecommerce.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.API\\Program.cs",
+              "RelativeToolTip": "Ecommerce.API\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:05:02.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IArticuloService.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\IArticuloService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Business\\Services\\IArticuloService.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\IArticuloService.cs",
+              "RelativeToolTip": "Ecommerce.Business\\Services\\IArticuloService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:15:33.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticulosController.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.API\\Controllers\\ArticulosController.cs",
+              "RelativeDocumentMoniker": "Ecommerce.API\\Controllers\\ArticulosController.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.API\\Controllers\\ArticulosController.cs",
+              "RelativeToolTip": "Ecommerce.API\\Controllers\\ArticulosController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:13:35.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticuloService.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\ArticuloService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Business\\Services\\ArticuloService.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Business\\Services\\ArticuloService.cs",
+              "RelativeToolTip": "Ecommerce.Business\\Services\\ArticuloService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:13:11.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Entities\\Articulo.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Entities\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Entities\\Articulo.cs",
+              "RelativeToolTip": "Ecommerce.Entities\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:13:02.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArticuloTienda.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Entities\\ArticuloTienda.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Entities\\ArticuloTienda.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Desktop\\MLG\\ExamenNet\\Ecommerce.Entities\\ArticuloTienda.cs",
+              "RelativeToolTip": "Ecommerce.Entities\\ArticuloTienda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:11:38.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

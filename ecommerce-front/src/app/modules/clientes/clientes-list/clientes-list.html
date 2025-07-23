@@ -1,0 +1,55 @@
+<app-navbar></app-navbar>
+<div class="clientes-container">
+  <h2>Listado de Clientes</h2>
+
+  @if (loading()) {
+  <div class="loading-state">
+    <div class="spinner"></div>
+    <p>Cargando clientes...</p>
+  </div>
+  } @else if (errorMessage()) {
+  <div class="error-alert">
+    {{ errorMessage() }}
+    <button (click)="loadClientes()" class="retry-btn">Reintentar</button>
+  </div>
+  } @else {
+  <button (click)="navigateToNewClient()" class="primary-btn">
+    Nuevo Cliente
+  </button>
+
+  @if (clientes().length > 0) {
+  <div class="table-container">
+    <table class="clientes-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>Dirección</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (cliente of clientes(); track cliente.id) {
+        <tr>
+          <td>{{ cliente.id }}</td>
+          <td>{{ cliente.nombre }}</td>
+          <td>{{ cliente.apellidos }}</td>
+          <td>{{ cliente.direccion }}</td>
+          <td class="actions-cell">
+            <button (click)="editCliente(cliente.id!)" class="edit-btn">
+              Editar
+            </button>
+            <button (click)="deleteCliente(cliente.id!)" class="delete-btn">
+              Eliminar
+            </button>
+          </td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+  } @else {
+  <div class="empty-state">No se encontraron clientes</div>
+  } }
+</div>

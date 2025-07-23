@@ -1,0 +1,185 @@
+.articulo-form-container {
+  max-width: 500px;
+  margin: 1rem auto;
+  padding: 1.2rem;
+  background: linear-gradient(145deg, #2e1065, #4c1d95);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+h2 {
+  color: #e9d5ff;
+  text-align: center;
+  margin: 0 0 1.2rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #d8b4fe;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1.5px solid #7e22ce;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #c084fc;
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 2px rgba(192, 132, 252, 0.15);
+}
+
+.form-input.invalid {
+  border-color: #f87171;
+}
+
+select.form-input {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23d8b4fe'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 0.8rem;
+  padding-right: 2rem;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.currency-icon {
+  position: absolute;
+  left: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d8b4fe;
+  font-size: 0.9rem;
+}
+
+.input-with-icon .form-input {
+  padding-left: 2rem;
+}
+
+textarea.form-input {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.image-preview {
+  margin-top: 0.8rem;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 150px;
+  border-radius: 6px;
+  border: 1px solid #7e22ce;
+}
+
+.error-message {
+  color: #fca5a5;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  display: block;
+  min-height: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  flex: 1;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  color: white;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  transform: translateY(-1px);
+}
+
+.submit-btn:disabled {
+  background: #6b7280;
+  cursor: not-allowed;
+}
+
+.cancel-btn {
+  background: transparent;
+  color: #d8b4fe;
+  border: 1px solid #7e22ce;
+}
+
+.cancel-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.spinner {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .articulo-form-container {
+    padding: 1rem;
+    margin: 0.5rem auto;
+    border-radius: 8px;
+  }
+
+  .form-input {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .form-actions {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.7rem;
+  }
+}

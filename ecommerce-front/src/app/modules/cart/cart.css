@@ -1,0 +1,154 @@
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  border-bottom: 2px solid #9c27b0;
+  padding-bottom: 0.5rem;
+}
+
+.carrito-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(74, 20, 140, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.cliente-selector {
+  margin-bottom: 2rem;
+}
+
+.cliente-selector label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.cliente-selector select {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+}
+
+.cliente-selector select:focus {
+  outline: none;
+  border-color: #9c27b0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: rgba(156, 39, 176, 0.5);
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+button {
+  background: linear-gradient(to right, #9c27b0, #673ab7);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #e91e63, #9c27b0);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+button.delete-btn {
+  background-color: #f44336;
+}
+
+button.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.empty-cart-message {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.total-container {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.finalizar-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carrito-container {
+    padding: 1rem;
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
